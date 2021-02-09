@@ -15,7 +15,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
 const someCss = (0, _styledComponents.css)([" background:purple;"]);
 
 var _StyledIcons = (0, _styledComponents.default)(_icons.default).withConfig({
-  displayName: "code___StyledIcons",
+  displayName: "sc-code___StyledIcons",
   componentId: "sc-1wxehft-0"
 })(["", ""], someCss);
 
@@ -24,7 +24,7 @@ const App1 = () => {
 };
 
 var _StyledIconsFoo = (0, _styledComponents.default)(_icons.default.Foo).withConfig({
-  displayName: "code___StyledIconsFoo",
+  displayName: "sc-code___StyledIconsFoo",
   componentId: "sc-1wxehft-1"
 })(["", ""], someCss);
 
@@ -33,7 +33,7 @@ const App2 = () => {
 };
 
 var _StyledIconsFooBar = (0, _styledComponents.default)(_icons.default.Foo.Bar).withConfig({
-  displayName: "code___StyledIconsFooBar",
+  displayName: "sc-code___StyledIconsFooBar",
   componentId: "sc-1wxehft-2"
 })(["", ""], someCss);
 

@@ -1,17 +1,17 @@
 import styled from "styled-components";
 const Test = styled.div.withConfig({
-  displayName: "code__Test",
+  displayName: "sc-code__Test",
   componentId: "sc-1e75407-0"
 })`color:red;`;
 const before = styled.div.withConfig({
-  displayName: "code__before",
+  displayName: "sc-code__before",
   componentId: "sc-1e75407-1"
 })`color:blue;`;
 styled.div.withConfig({
-  displayName: "code",
+  displayName: "sc-code",
   componentId: "sc-1e75407-2"
 })``;
 export default styled.button.withConfig({
-  displayName: "code",
+  displayName: "sc-code",
   componentId: "sc-1e75407-3"
 })``;

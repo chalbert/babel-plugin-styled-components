@@ -7,7 +7,7 @@ import {
   useNamespace,
 } from '../utils/options'
 import getName from '../utils/getName'
-import prefixLeadingDigit from '../utils/prefixDigit'
+import prefixLeadingCharacter from '../utils/prefixLeadingCharacter'
 import hash from '../utils/hash'
 import { isStyled } from '../utils/detectors'
 
@@ -72,8 +72,8 @@ const getDisplayName = t => (path, state) => {
       return componentName
     }
     return componentName
-      ? `${prefixLeadingDigit(blockName)}__${componentName}`
-      : prefixLeadingDigit(blockName)
+      ? `${prefixLeadingCharacter(blockName)}__${componentName}`
+      : prefixLeadingCharacter(blockName)
   } else {
     return componentName
   }
@@ -135,7 +135,7 @@ const getNextId = state => {
 
 const getComponentId = state => {
   // Prefix the identifier with a character because CSS classes cannot start with a number
-  return `${useNamespace(state)}${prefixLeadingDigit(
+  return `${useNamespace(state)}${prefixLeadingCharacter(
     getFileHash(state)
   )}-${getNextId(state)}`
 }

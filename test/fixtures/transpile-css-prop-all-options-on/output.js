@@ -20,17 +20,17 @@ var _require = require('../SomeOtherComponentPath'),
 
 
 var _StyledSomeOtherComponent = (0, _styledComponents["default"])(SomeOtherComponent).withConfig({
-  displayName: "code___StyledSomeOtherComponent",
+  displayName: "sc-code___StyledSomeOtherComponent",
   componentId: "sc-7evkve-0"
 })(["color:red;"]);
 
 var Thing = _styledComponents["default"].div.withConfig({
-  displayName: "code__Thing",
+  displayName: "sc-code__Thing",
   componentId: "sc-7evkve-1"
 })(["color:red;"]);
 
 var Thing2 = (0, _styledComponents["default"])(Thing).withConfig({
-  displayName: "code__Thing2",
+  displayName: "sc-code__Thing2",
   componentId: "sc-7evkve-2"
 })(["background:blue;"]);
 /*
@@ -38,7 +38,7 @@ var Thing2 = (0, _styledComponents["default"])(Thing).withConfig({
  */
 
 var _StyledP = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP",
+  displayName: "sc-code___StyledP",
   componentId: "sc-7evkve-3"
 })(["flex:1;"]);
 
@@ -47,7 +47,7 @@ var StaticString = function StaticString(p) {
 };
 
 var _StyledP2 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP2",
+  displayName: "sc-code___StyledP2",
   componentId: "sc-7evkve-4"
 })(["flex:1;"]);
 
@@ -58,7 +58,7 @@ var StaticTemplate = function StaticTemplate(p) {
 };
 
 var _StyledP3 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP3",
+  displayName: "sc-code___StyledP3",
   componentId: "sc-7evkve-5"
 })({
   color: 'blue'
@@ -69,7 +69,7 @@ var ObjectProp = function ObjectProp(p) {
 };
 
 var _StyledP4 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP4",
+  displayName: "sc-code___StyledP4",
   componentId: "sc-7evkve-6"
 })(["flex:1;"]);
 
@@ -78,7 +78,7 @@ var NoChildren = function NoChildren(p) {
 };
 
 var _StyledP5 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP5",
+  displayName: "sc-code___StyledP5",
   componentId: "sc-7evkve-7"
 })(["color:blue;"]);
 
@@ -93,7 +93,7 @@ var CssHelperProp = function CssHelperProp(p) {
 
 
 var _StyledParagraph = (0, _styledComponents["default"])(Paragraph).withConfig({
-  displayName: "code___StyledParagraph",
+  displayName: "sc-code___StyledParagraph",
   componentId: "sc-7evkve-8"
 })(["flex:1"]);
 
@@ -102,7 +102,7 @@ var CustomComp = function CustomComp(p) {
 };
 
 var _StyledP6 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP6",
+  displayName: "sc-code___StyledP6",
   componentId: "sc-7evkve-9"
 })(["", ""], function (p) {
   return p._css;
@@ -113,7 +113,7 @@ var DynamicProp = function DynamicProp(p) {
 };
 
 var _StyledP7 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP7",
+  displayName: "sc-code___StyledP7",
   componentId: "sc-7evkve-10"
 })(["background:", ";"], function (p) {
   return p._css2;
@@ -126,7 +126,7 @@ var LocalInterpolation = function LocalInterpolation(p) {
 };
 
 var _StyledP8 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP8",
+  displayName: "sc-code___StyledP8",
   componentId: "sc-7evkve-11"
 })(["color:", ";"], function (props) {
   return props.theme.a;
@@ -141,7 +141,7 @@ var FuncInterpolation = function FuncInterpolation(p) {
 var radius = 10;
 
 var _StyledP9 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP9",
+  displayName: "sc-code___StyledP9",
   componentId: "sc-7evkve-12"
 })(["border-radius:", "px;"], radius);
 
@@ -152,7 +152,7 @@ var GlobalInterpolation = function GlobalInterpolation(p) {
 };
 
 var _StyledP10 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP10",
+  displayName: "sc-code___StyledP10",
   componentId: "sc-7evkve-13"
 })(["color:", ";"], function (p) {
   return p._css3;
@@ -165,7 +165,7 @@ var LocalCssHelperProp = function LocalCssHelperProp(p) {
 };
 
 var _StyledP11 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP11",
+  displayName: "sc-code___StyledP11",
   componentId: "sc-7evkve-14"
 })(["color:", ";"], function (props) {
   return props.theme.color;
@@ -178,7 +178,7 @@ var DynamicCssHelperProp = function DynamicCssHelperProp(p) {
 };
 
 var _StyledButtonGhost = (0, _styledComponents["default"])(Button.Ghost).withConfig({
-  displayName: "code___StyledButtonGhost",
+  displayName: "sc-code___StyledButtonGhost",
   componentId: "sc-7evkve-15"
 })(["flex:1"]);
 
@@ -187,7 +187,7 @@ var CustomCompWithDot = function CustomCompWithDot(p) {
 };
 
 var _StyledButtonGhostNew = (0, _styledComponents["default"])(Button.Ghost.New).withConfig({
-  displayName: "code___StyledButtonGhostNew",
+  displayName: "sc-code___StyledButtonGhostNew",
   componentId: "sc-7evkve-16"
 })(["flex:1"]);
 
@@ -196,7 +196,7 @@ var NestedCompWithDot = function NestedCompWithDot(p) {
 };
 
 var _StyledButtonGhost2 = (0, _styledComponents["default"])(button.ghost).withConfig({
-  displayName: "code___StyledButtonGhost2",
+  displayName: "sc-code___StyledButtonGhost2",
   componentId: "sc-7evkve-17"
 })(["flex:1"]);
 
@@ -205,7 +205,7 @@ var CustomCompWithDotLowerCase = function CustomCompWithDotLowerCase(p) {
 };
 
 var _StyledButtonGhost3 = (0, _styledComponents["default"])("button-ghost").withConfig({
-  displayName: "code___StyledButtonGhost3",
+  displayName: "sc-code___StyledButtonGhost3",
   componentId: "sc-7evkve-18"
 })(["flex:1"]);
 
@@ -220,7 +220,7 @@ var getAfterValue = function getAfterValue() {
 };
 
 var _StyledP12 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP12",
+  displayName: "sc-code___StyledP12",
   componentId: "sc-7evkve-19"
 })(function (p) {
   return {
@@ -244,7 +244,7 @@ var ObjectPropMixedInputs = function ObjectPropMixedInputs(p) {
 };
 
 var _StyledP13 = (0, _styledComponents["default"])("p").withConfig({
-  displayName: "code___StyledP13",
+  displayName: "sc-code___StyledP13",
   componentId: "sc-7evkve-20"
 })(function (p) {
   return _objectSpread(_objectSpread({}, _objectSpread({
@@ -287,12 +287,12 @@ var EarlyUsageComponent = function EarlyUsageComponent(p) {
 };
 
 var Thing3 = _styledComponents["default"].div.withConfig({
-  displayName: "code__Thing3",
+  displayName: "sc-code__Thing3",
   componentId: "sc-7evkve-21"
 })(["color:blue;"]);
 
 var _StyledThing = (0, _styledComponents["default"])(Thing3).withConfig({
-  displayName: "code___StyledThing",
+  displayName: "sc-code___StyledThing",
   componentId: "sc-7evkve-22"
 })(["color:red;"]);
 
@@ -307,12 +307,12 @@ function Thing4(props) {
 
 
 var _StyledThing2 = (0, _styledComponents["default"])(Thing4).withConfig({
-  displayName: "code___StyledThing2",
+  displayName: "sc-code___StyledThing2",
   componentId: "sc-7evkve-23"
 })(["color:red;"]);
 
 var _StyledSomeComponent = (0, _styledComponents["default"])(_SomeComponentPath["default"]).withConfig({
-  displayName: "code___StyledSomeComponent",
+  displayName: "sc-code___StyledSomeComponent",
   componentId: "sc-7evkve-24"
 })(["color:red;"]);
 
